@@ -91,6 +91,10 @@ body {
     font-weight: bold;
 }
 
+.ben-conteiner {
+	width: calc(33.33% - 27px);
+}
+
 .benefits-bg1 {
 	background-image: url('../img/forbes-bg.jpg');
 	background-repeat: no-repeat;
@@ -449,7 +453,7 @@ section {
 
 .benefits__item {
 	list-style: none;
-	width: calc(33.33% - 27px);
+	width: 100%;
 }
 
 .benefits__num {
@@ -463,7 +467,9 @@ section {
 	/* background-clip: content-box; */
 	font-family: "Anta", sans-serif;
 	font-size: 20px;
-	color: rgb(191, 0, 208);
+	color: #4b4b4b;
+	text-align: center;
+	margin-top: 15px;
 }
 
 /* work ********/
