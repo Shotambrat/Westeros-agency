@@ -115,7 +115,7 @@ body {
 
 .logo img {
 	margin-top: 30px;
-	transform: scale(2);
+	transform: scale(1.7);
     width: 120px; /* Регулируйте размер логотипа по необходимости */
 }
 
