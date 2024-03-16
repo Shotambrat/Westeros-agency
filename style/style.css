@@ -35,6 +35,7 @@ body {
 }
 
 .logo img {
+	border: 1px solid red;
     width: 120px; /* Регулируйте размер логотипа по необходимости */
 }
 
