@@ -591,6 +591,104 @@ section {
 	text-align: center;
 }
 
+.pricing-icons {
+    text-align: center;
+}
+
+.pricing-icon__elem img {
+    /* Adjust width and height as needed */
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; /* Space between the icon and the text */
+}
+
+.pricing-icon__elem strong {
+	display: block; 
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	margin-bottom: 15px;
+}
+.pricing-icon__elem p {
+    display: block; /* Make sure these elements behave as block-level for proper alignment */
+    text-align: center;
+    margin: 0 auto; /* Center align if needed */
+	width: 250px;
+	font-size: 0.8em;
+}
+
+.pricing-factor__txt {
+	width: 700px;
+	margin-top: 50px;
+    /* text-align: center; */
+    text-justify: inter-word; /* This will ensure the text is distributed evenly on both sides */
+    margin-bottom: 20px; /* Optional: Adds space between the paragraphs */
+}
+
+.pricing-icons {
+	display: flex;
+	justify-content: space-around;
+}
+
+.pricing-text-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: "Anta", sans-serif;
+	line-height: 1.5;
+}
+
+.cards-container {
+	display: flex; /* Use flexbox for layout */
+	justify-content: space-around; /* Space out the child elements */
+	width: 100%; /* Make the container full width */
+  }
+  
+  .cards__card {
+	display: flex; /* Use flexbox for the card's content */
+	flex-direction: column; /* Stack children vertically */
+	align-items: center; /* Center items horizontally */
+	justify-content: space-between; /* Center items vertically */
+	background-image: linear-gradient(135deg, #9c27b0, #673ab7); /* Gradient background */
+	color: white; /* Text color */
+	padding: 20px; /* Add some padding inside the cards */
+	width: 300px;
+	height: 400px; /* Set the width of each card */
+	position: relative; /* Positioning context for absolutely positioned elements */
+  }
+  
+  .cards__card::before {
+	content: ''; /* Required for pseudo-elements */
+	display: block;
+	width: 60px; /* Example size, adjust as needed */
+	height: 60px; /* Example size, adjust as needed */
+	background: url('path/to/your-icon.svg') no-repeat center center; /* Adjust path as needed */
+	background-size: contain; /* Make sure the icon fits inside the element */
+	position: absolute;
+	top: 50%; /* Center vertically */
+	left: 50%; /* Center horizontally */
+	transform: translate(-50%, -50%); /* Adjust position to truly center */
+  }
+  
+  .cards__card p {
+	text-align: center; /* Center-align text */
+	margin-top: 20px; /* Space from the icon */
+  }
+
+  .cards__card img {
+	height: 130px;
+  }
+
+  .text-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 50px;
+  }
+
+  .text-container__txt {
+	margin-left: 100px;
+  }
+
 /* footer ********/
 .footer {
 	display: flex;
@@ -648,6 +746,15 @@ section {
 
 .glow-on-hover:active:after {
     background: transparent;
+}
+
+.footer-logo img {
+	transform: scale(3);
+} 
+
+.footer-info {
+	width: 400px;
+	font-size: 20px;
 }
 /* 
 .glow-on-hover:hover:before {
@@ -730,6 +837,7 @@ iframe {
     padding: 8px 16px;
     border-radius: 5px;
     text-decoration: none;
+	cursor: pointer;
     font-weight: bold;
     font-size: 14px; /* Согласование размера текста кнопки с основным текстом */
 }
