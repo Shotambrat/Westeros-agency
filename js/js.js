@@ -195,3 +195,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+document.getElementById("seeMoreBtn").onclick = function() {
+    window.open('https://www.youtube.com/@WesterosAgency', '_blank');
+};

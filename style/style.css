@@ -167,6 +167,45 @@ body {
 	margin-bottom: 10px;
 }
 
+#seeMoreBtn {
+    cursor: pointer;
+    border: none;
+    background-color: #58a9ff; /* Синий цвет фона */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+	border: 2px solid #002bff;
+}
+
+#seeMoreBtn:hover {
+    animation: pulse-animation 1s infinite;
+	background-color: #007bff;
+}
+
+/* Ключевые кадры для анимации "пульса" */
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.seemore-container {
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+
 /******************************************/
 section {
 	padding-top: 150px;
