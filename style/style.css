@@ -584,6 +584,7 @@ section {
 .prices-txt {
 	font-family: "Anta", sans-serif;
 	text-align: center;
+	margin-bottom: 100px;
 }
 
 .portfolio-txt {
@@ -615,9 +616,12 @@ section {
     margin: 0 auto; /* Center align if needed */
 	width: 250px;
 	font-size: 0.8em;
+	/* word-spacing: 10px; */
+
 }
 
 .pricing-factor__txt {
+	word-spacing: 8px;
 	width: 700px;
 	margin-top: 50px;
     /* text-align: center; */
@@ -680,12 +684,14 @@ section {
   }
 
   .text-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	margin-bottom: 50px;
   }
 
   .text-container__txt {
+	text-align: center;
 	margin-left: 100px;
   }
 
