@@ -91,6 +91,50 @@ body {
     font-weight: bold;
 }
 
+.benefits-bg1 {
+	background-image: url('../img/forbes-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 20% 50%;
+}
+
+.benefits-bg2 {
+	background-image: url('../img/benefits2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 20% 50%;
+}
+
+.benefits-bg3 {
+	background-image: url('../img/benefits-3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 20% 50%;
+}
+
+.benefits-bg4 {
+	background-image: url('../img/benefits4.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 20% 50%;
+}
+
+.benefits-bg5 {
+	background-image: url('../img/benefits5.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 20% 50%;
+}
+
+.benefits-bg6 {
+	background-image: url('../img/benefits6.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 20% 50%;
+}
+
+
+
 .close-btn:hover,
 .close-btn:focus {
     color: #000;
@@ -181,7 +225,7 @@ body {
 
 #seeMoreBtn:hover {
     animation: pulse-animation 1s infinite;
-	background-color: #91ff7b
+	background-color: #126501;
 }
 
 /* Ключевые кадры для анимации "пульса" */
@@ -416,8 +460,10 @@ section {
 }
 
 .benefits__p {
+	/* background-clip: content-box; */
+	font-family: "Anta", sans-serif;
 	font-size: 20px;
-	color: #4b4b4b;
+	color: rgb(191, 0, 208);
 }
 
 /* work ********/
