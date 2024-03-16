@@ -234,7 +234,7 @@ section {
 .title .stroke {
 	display: inline-block;
 	color: transparent;
-	color: red;
+	color: grey;
 	-webkit-text-stroke: 1px var(--pr-color);
 }
 
