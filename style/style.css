@@ -33,6 +33,10 @@ body {
 	font-family: "Anta", sans-serif;
 }
 
+.form-textarea {
+	padding: 10px;
+}
+
 .modal {
     display: none; /* Скрыть модальное окно по умолчанию */
     position: fixed;
