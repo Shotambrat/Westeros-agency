@@ -150,15 +150,16 @@ body {
 	align-items: center;
 	justify-content: flex-start;
 }
+
 .simple-fast-container h3 {
-	color: #9e9e9e;
+	color: #4b4b4b;
 	font-family: "Anta", sans-serif;
 	text-align: center;
 	margin-top: 20px;
 }
 
 .simple-fast-container b {
-	color: rgb(174, 61, 212)
+	color: rgb(174, 61, 212);
 }
 
 .simple-fast-container img {
@@ -337,7 +338,7 @@ section {
 .about__p {
 	font-family: "Anta", sans-serif;
 	line-height: 1.4;
-	font-size: 20px;
+	font-size: 23px;
 	color: #4b4b4b;
 }
 
