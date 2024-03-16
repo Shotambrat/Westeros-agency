@@ -760,6 +760,11 @@ section {
 	transform: scale(3);
 } 
 
+.footer-info a {
+	font-family: "Anta", sans-serif;
+	font-size: 20px;
+}
+
 .footer-info {
 	width: 400px;
 	font-size: 20px;
