@@ -611,6 +611,7 @@ section {
 	margin-bottom: 15px;
 }
 .pricing-icon__elem p {
+	word-spacing: 5px;
     display: block; /* Make sure these elements behave as block-level for proper alignment */
     text-align: center;
     margin: 0 auto; /* Center align if needed */
@@ -621,6 +622,7 @@ section {
 }
 
 .pricing-factor__txt {
+	color: #9e9e9e;
 	word-spacing: 8px;
 	width: 700px;
 	margin-top: 50px;
