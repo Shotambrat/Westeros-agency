@@ -170,18 +170,18 @@ body {
 #seeMoreBtn {
     cursor: pointer;
     border: none;
-    background-color: #58a9ff; /* Синий цвет фона */
-    color: white;
+    background-color: #91ff7b; /* Синий цвет фона */
+	color: black;
     padding: 10px 20px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: transform 0.3s ease;
-	border: 2px solid #002bff;
+	border: 2px solid #00d54b;
 }
 
 #seeMoreBtn:hover {
     animation: pulse-animation 1s infinite;
-	background-color: #007bff;
+	background-color: #91ff7b;
 }
 
 /* Ключевые кадры для анимации "пульса" */
