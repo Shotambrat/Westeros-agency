@@ -544,10 +544,18 @@ section {
 	transform: rotate(180deg);
 }
 
+.text__from {
+	text-transform: lowercase;
+}
+
 .serv__item-txt {
-	font-size: 50px;
-	color: #4b4b4b;
+	font-size: 30px;
+	color: #004303;
 	text-transform: uppercase;
+}
+
+.serv__item-text b {
+	color: black
 }
 
 /* footer ********/
