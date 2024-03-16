@@ -137,6 +137,29 @@ body {
     color: #fff; /* Цвет текста ссылок при наведении */
 }
 
+.simple-fast {
+	margin-top: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.simple-fast .simple-fast-container {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.simple-fast-container h6 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.simple-fast-container img {
+	height: 100px;
+	margin-bottom: 10px;
+}
+
 /******************************************/
 section {
 	padding-top: 150px;
