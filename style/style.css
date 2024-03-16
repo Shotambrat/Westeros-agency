@@ -309,7 +309,7 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: auto;
 }
 
 .footer__div {
@@ -401,4 +401,203 @@ iframe {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+.footer-container {
+    background: linear-gradient(135deg, #009ffd, #2a2a72); /* Пример градиента */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 14px; /* Уменьшение основного размера текста */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Уменьшенное расстояние между элементами */
+}
+
+.footer-logo img {
+    width: 100px; /* Уменьшенный размер логотипа */
+}
+
+.footer-socials a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    width: 40px; /* Определение фиксированного размера для области вокруг иконок */
+    height: 40px;
+}
+
+.footer-socials img {
+    width: 24px; /* Уменьшенный размер иконок соцсетей */
+}
+
+.footer-email {
+    display: inline-block;
+    background-color: #f1cd2f; /* Цвет кнопки */
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px; /* Согласование размера текста кнопки с основным текстом */
+}
+
+.footer-info p {
+    margin: 4px 0;
+    line-height: 1.4; /* Улучшение читаемости многострочного текста */
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        gap: 10px; /* Уменьшенное расстояние между элементами для мобильных устройств */
+    }
+}
+
+
+/* Общие стили для мобильных устройств */
+@media (max-width: 768px) {
+    .content,
+    .header {
+        padding: 0 20px;
+    }
+
+    .header__img {
+        width: 100%;
+        right: 0;
+        top: auto;
+        bottom: -100px;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .header__marq-wrapp {
+        padding: 8px 20px;
+    }
+
+    .header__marq-txt {
+        font-size: 20px;
+    }
+
+    .header__marq-star {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section-title {
+        font-size: 45px;
+    }
+
+    .section-title__square {
+        width: 80px;
+        height: 80px;
+    }
+
+    .about__wrapp,
+    .benefits__list {
+        flex-direction: column;
+    }
+
+    .about__img, .about__txt {
+        width: 100%;
+    }
+
+    .benefits__item {
+        width: 100%;
+    }
+
+    .benefits__num {
+        font-size: 40px;
+    }
+
+    .about__txt, .benefits__p {
+        font-size: 16px;
+    }
+
+    .about__p {
+        line-height: 1.5;
+    }
+}
+
+/* Уточнения для очень маленьких экранов */
+@media (max-width: 480px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .section-title {
+        font-size: 35px;
+    }
+
+    .benefits__num {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Уменьшение заголовка в хедере */
+    .title {
+        font-size: 35px;
+    }
+
+    /* Убедимся, что картинка в хедере не выходит за пределы */
+    .header__img {
+        position: relative; /* Изменено с absolute на relative */
+        width: 90%; /* Уменьшение ширины и центрирование */
+        margin: 20px auto; /* Добавляем отступ сверху и авто-маржин для центрирования */
+        top: auto;
+        bottom: auto;
+        right: auto;
+        left: auto;
+        clip-path: none; /* Убираем clip-path, который мог скрыть часть изображения */
+    }
+
+    .header__img img {
+        width: 100%;
+        height: auto; /* Изменение соотношения сторон для более корректного отображения */
+    }
+
+    /* Уменьшение второй картинки */
+    .about__img img {
+        width: 100%;
+        height: auto; /* Автоматический размер по высоте для сохранения пропорций */
+    }
+
+    /* Отступ и размер текста в about us */
+    .about__txt {
+        padding: 0 15px; /* Добавляем отступы сбоку */
+        font-size: 16px; /* Уменьшаем размер текста */
+    }
+
+    .about__p {
+        margin-left: 20px; /* Добавляем отступ слева для всего абзаца */
+        text-align: justify; /* Выравнивание текста по ширине для лучшего чтения */
+    }
+}
+
+/* Дополнительные стили для очень маленьких экранов */
+@media (max-width: 480px) {
+    .title {
+        font-size: 30px; /* Ещё меньше для самых маленьких экранов */
+    }
+
+    .section-title {
+        font-size: 30px; /* Уменьшение заголовков разделов */
+    }
+
+    .header__img {
+        width: 100%; /* Картинка на всю ширину на самых маленьких экранах */
+    }
 }
