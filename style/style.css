@@ -544,6 +544,19 @@ section {
 	transform: rotate(180deg);
 }
 
+.see-more-btn {
+    animation: pulseAnimation 2s infinite;
+    cursor: pointer;
+}
+
+.see-more-btn img {
+    transition: transform 0.3s;
+}
+
+.see-more-btn:hover img {
+    transform: rotate(90deg); /* Поворот стрелки вправо при наведении */
+}
+
 .text__from {
 	text-transform: lowercase;
 }
@@ -556,6 +569,26 @@ section {
 
 .serv__item-text b {
 	color: black
+}
+  
+  /* Класс для переворота стрелки */
+  .serv__item-arrow img {
+    transition: transform 0.3s;
+    transform: rotate(0deg); /* Ensure the image is not rotated initially */
+}
+
+.hidden-text {
+	font-family: "Anta", sans-serif;
+}
+
+.prices-txt {
+	font-family: "Anta", sans-serif;
+	text-align: center;
+}
+
+.portfolio-txt {
+	font-family: "Anta", sans-serif;
+	text-align: center;
 }
 
 /* footer ********/

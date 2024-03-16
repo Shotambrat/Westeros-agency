@@ -199,3 +199,21 @@ window.onclick = function(event) {
 document.getElementById("seeMoreBtn").onclick = function() {
     window.open('https://www.youtube.com/@WesterosAgency', '_blank');
 };
+
+function toggleVisibility(index) {
+	// Select all hidden-text elements
+	const allHiddenTexts = document.querySelectorAll('.hidden-text');
+	// Select the specific hidden-text element based on index
+	const hiddenText = allHiddenTexts[index];
+	// Find the image within the serv__item of the same index
+	const image = document.querySelectorAll('.serv__item')[index].querySelector('.serv__item-arrow img');
+	
+	// Toggle visibility and image rotation
+	if (hiddenText.style.display === "none") {
+	  hiddenText.style.display = "block";
+	  image.style.transform = 'rotate(90deg)';
+	} else {
+	  hiddenText.style.display = "none";
+	  image.style.transform = 'rotate(0deg)';
+	}
+  }
