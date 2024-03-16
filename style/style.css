@@ -20,6 +20,12 @@ body {
 	background: var(--second-color);
 }
 
+.content h3 {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
 #contactForm {
     background: linear-gradient(135deg, #6e8efb, #a777e3);
     padding: 20px;
