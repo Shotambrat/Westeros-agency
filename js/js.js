@@ -175,6 +175,23 @@ document.addEventListener("DOMContentLoaded", function () {
 	footer();
 });
 
-(function () {
-	let 
-})
+var modal = document.getElementById("contactModal");
+var btn = document.getElementById("openModalBtn");
+var span = document.getElementsByClassName("close-btn")[0];
+
+// Открыть модальное окно при клике на кнопку
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// Закрыть модальное окно при клике на символ "X"
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Закрыть модальное окно при клике вне его
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}

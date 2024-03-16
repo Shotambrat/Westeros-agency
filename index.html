@@ -17,6 +17,20 @@
   </head>
 
   <body>
+
+	<div id="contactModal" class="modal">
+		<div class="modal-content">
+			<span class="close-btn">&times;</span>
+			<h1>Let's Talk</h1>
+			<p>Fill out the form below and we will contact you as soon as possible</p>
+			<form>
+				<input type="text" name="name" placeholder="Name*" required>
+				<input type="email" name="email" placeholder="Email*" required>
+				<input type="text" name="phone" placeholder="Phone Number*" required>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</div>
     <!-- ??Get Started ?? -->
 
 	<div class="site-header">
@@ -47,6 +61,7 @@
           >
           <br />
           <button
+			id="openModalBtn"
             class="glow-on-hover"
             data-toggle="modal"
             type="button"
@@ -56,7 +71,7 @@
           </button>
         </h1>
         <div class="header__img">
-          <img src="img/IMG_1306.JPG" alt="1" />
+          <img src="img/IMG_1305.JPG" alt="1" />
           <div id="container"></div>
         </div>
         <div class="header__marq">
@@ -90,12 +105,10 @@
       </header>
 
       <main class="main">
-        <!-- div .about -->
         <section class="about">
           <div class="about__wrapp">
             <div class="about__img">
-				
-              <img src="img/IMG_1305.JPG" alt="2" />
+              <img src="img/IMG_1306.JPG" alt="2" />
             </div>
             <div class="about__txt">
               <h2 class="section-title">

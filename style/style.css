@@ -20,6 +20,75 @@ body {
 	background: var(--second-color);
 }
 
+#contactForm {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+}
+
+.modal {
+    display: none; /* Скрыть модальное окно по умолчанию */
+    position: fixed;
+    z-index: 99; /* Положение над другими элементами */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ширина на весь экран */
+    height: 100%; /* Высота на весь экран */
+    overflow: auto; /* В случае превышения содержимого */
+    background-color: rgba(63, 63, 63, 0.8); /* Цвет фона */
+	transition: 1s ease-in;
+}
+
+.modal-content {
+    background: linear-gradient(135deg, #009ffd, #2a2a72); /* Градиентный фон */
+    margin: 10% auto; /* Расположение по центру экрана */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ширина контента */
+    max-width: 600px; /* Максимальная ширина */
+	border-radius: 40px;
+}
+
+/* Стили формы и элементов внутри */
+.modal-content h1 {
+	text-align: center;
+    color: #fff;
+}
+
+.modal-content p {
+	text-align: center;
+	margin-bottom: 50px;
+    color: #ddd;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content input,
+.modal-content button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .site-header {
 	height: 50px;
 	position: fixed;
