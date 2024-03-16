@@ -21,7 +21,7 @@ body {
 }
 
 .site-header {
-	height: 80px;
+	height: 50px;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
@@ -36,6 +36,8 @@ body {
 }
 
 .logo img {
+	margin-top: 30px;
+	transform: scale(2);
     width: 120px; /* Регулируйте размер логотипа по необходимости */
 }
 
