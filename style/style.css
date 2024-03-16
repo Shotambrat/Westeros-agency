@@ -29,6 +29,10 @@ body {
     margin: auto;
 }
 
+.form-area {
+	font-family: "Anta", sans-serif;
+}
+
 .modal {
     display: none; /* Скрыть модальное окно по умолчанию */
     position: fixed;
