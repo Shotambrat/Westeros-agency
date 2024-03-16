@@ -40,11 +40,12 @@ body {
     overflow: auto; /* В случае превышения содержимого */
     background-color: rgba(63, 63, 63, 0.8); /* Цвет фона */
 	transition: 1s ease-in;
+	overflow-y: hidden;
 }
 
 .modal-content {
     background: linear-gradient(135deg, #009ffd, #2a2a72); /* Градиентный фон */
-    margin: 10% auto; /* Расположение по центру экрана */
+    margin: 100px auto; /* Расположение по центру экрана */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Ширина контента */
