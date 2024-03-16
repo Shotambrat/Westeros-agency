@@ -20,6 +20,41 @@ body {
 	background: var(--second-color);
 }
 
+.site-header {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.5); /* Прозрачность фона */
+    backdrop-filter: blur(10px); /* Размытие фона */
+    border-bottom-left-radius: 25px; /* Закругление нижних углов */
+    border-bottom-right-radius: 25px;
+}
+
+.logo img {
+    width: 120px; /* Регулируйте размер логотипа по необходимости */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Расстояние между пунктами навигации */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000; /* Цвет текста ссылок */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Плавное изменение цвета */
+}
+
+.navbar a:hover {
+    color: #007BFF; /* Цвет текста ссылок при наведении */
+}
+
 /******************************************/
 section {
 	padding-top: 150px;
